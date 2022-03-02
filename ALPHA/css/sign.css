@@ -1,0 +1,119 @@
+.container
+{
+  padding-top: 150px;
+  padding-bottom: 180px;
+}
+form
+{
+  padding: 5px;
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;  
+  border: #00bdff solid 1px;
+  border-radius: 20px;
+  outline: none;
+}
+form h3
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+form input
+{
+color: #00bdff;
+font-size: 20px;
+text-align: center;
+font-family: "Main";
+display: block;
+width: 300px;
+margin-left: auto !important;
+margin-right: auto !important;
+margin: 10px;
+align-items: center;
+padding: 10px;
+border: #00bdff solid 1px;
+border-radius: 20px;
+margin: 10px;
+outline: none;
+}
+::placeholder
+{
+    color: #00bdff;
+    font-family: "Main";
+}
+
+form .buttonOne
+{
+width: 300px;
+margin-left: 7%;
+margin-right: auto;
+margin-top: 0px;
+margin-bottom: 10px;
+padding: 10px;
+background: #00bdff;
+border-color: #00bdff;
+color: #ffffff;
+outline: none;
+border:#00bdff solid 1px ;
+border-radius: 20px;
+text-align: center;
+
+}
+form.buttonOne:hover {
+      background: #ffffff;
+      border-color: #00bdff;
+      color: #00bdff;
+    }
+    form  .icon-user
+  {
+        text-align: left;
+        position: absolute;
+        margin-top: 15px;
+        margin-left: 40px;
+        color: #00bdff;
+  }
+  form .icon-eye
+  {
+    text-align: left;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 40px;
+    color: #00bdff;
+  }
+  form .icon-eye-slash
+  {
+    text-align: left;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 40px;
+    color: #00bdff;
+  }
+  form .icon-mail_outline
+  {
+    text-align: left;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 40px;
+    color: #01bbff;
+  }
+  form  h2
+  {
+    font-size: 12px;
+    text-align: center;
+    color: gray;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  form  .sign
+  {
+    color: #00bdff;
+  }
+  form  .sign:hover
+  {
+    color: #00658a;
+  }
+
+
+

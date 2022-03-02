@@ -1,0 +1,241 @@
+*
+{
+  transition: all .2s linear;
+}
+@font-face {
+    font-family: "Main";
+    src: url("../fonts/Quicksand-VariableFont_wght.ttf");
+  }
+  
+  @font-face {
+    font-family: "secoundry";
+    src: url("../fonts/Cairo-VariableFont_wght.ttf");
+  }
+  html
+  {
+      scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Main","secoundry";
+  }
+  h2
+  {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .message
+  {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Menu
+  {
+    font-size:30px;
+    cursor:pointer;
+    color: #044a75;
+  }
+  .icon-dashboard
+  {
+    font-size:30px;
+    cursor:pointer;
+    float: right;
+    color: #044a75;
+  }
+    .icon-sign-out
+    {
+        font-family: "Main";
+    }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #044a75;
+    /*background-color: #00bdff;*/
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #00bdff;
+  }
+  
+  .sidenav .closebtn 
+  {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+
+  }
+  
+  @media screen and (max-height: 450px) 
+  {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  table
+  {
+      text-align: center;
+      border-radius: 5px;
+      margin-top: 10px;
+  }
+  #users{
+      border-collapse: collapse;
+      width:100%;
+  }
+
+  #users td ,#users th{
+      border: 1px solid #ddd;
+      padding :8px;
+      text-align: center;
+  }
+
+  #users tr:nth-child(even){
+      background-color :#f2f2f2;
+  }
+  #users tr:hover {background-color : #ddd;}
+  #users th{
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: center;
+      background-color: #044a75;
+      color: white;
+      border-radius: 5px;
+  }
+  #orders{
+    border-collapse: collapse;
+    width:100%;
+    margin-top: 100px;
+}
+
+#orders td ,#orders th{
+    border: 1px solid #ddd;
+    padding :8px;
+    text-align: center;
+}
+
+#orders tr:nth-child(even){
+    background-color :#f2f2f2;
+}
+#orders tr:hover {background-color : #ddd;}
+#orders th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #750404;
+    color: white;
+    border-radius: 5px;
+}
+form
+{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;  
+  border: #00bdff solid 1px;
+  margin-top: 100px;
+  border-radius: 20px;
+  outline: none;
+}
+h3
+{
+    text-align: center;
+    font-size: 30px;
+}
+input,select
+{
+color: #00bdff;
+font-size: 20px;
+text-align: center;
+font-family: "Main";
+display: block;
+width: 300px;
+margin-left: auto !important;
+margin-right: auto !important;
+align-items: center;
+padding: 10px;
+border: #00bdff solid 1px;
+border-radius: 20px;
+margin: 10px;
+outline: none;
+}
+select
+{
+    width: 320px;
+    background-color: #fff;
+}
+::placeholder
+{
+    color: #00bdff;
+    font-family: "Main";
+}
+
+.buttonOne
+{
+font-size: 20px;
+width: 320px;
+margin-left: 90px;
+margin-right: auto;
+margin-top: 10px;
+margin-bottom: 10px;
+padding: 10px;
+background: #00bdff;
+border-color: #00bdff;
+color: #ffffff;
+outline: none;
+border:#00bdff solid 1px ;
+border-radius: 20px;
+text-align: center;
+
+}
+    .buttonOne:hover {
+      background: #ffffff;
+      border-color: #00bdff;
+      color: #00bdff;
+    }
+   .icon-user
+  {
+        text-align: left;
+        position: absolute;
+        margin-top: 12px;
+        margin-left: 105px;
+        color: #00bdff;
+  }
+  .icon-mail_outline
+  {
+    text-align: left;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 105px;
+    color: #00bdff;
+  }
+  .icon-eye-slash
+  {
+    text-align: left;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 105px;
+    color: #00bdff;
+  }
+
+  
